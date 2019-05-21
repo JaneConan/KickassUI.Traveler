@@ -3,7 +3,7 @@
     <StackLayout>
         <custom:PancakeView HorizontalOptions="Fill" VerticalOptions="Start" CornerRadius="0,0,0,40" HeightRequest="400">
             <Grid>
-                <Image Source="seattle.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Aspect="AspectFill" />
+                <Image Source="beijing.jpg" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Aspect="AspectFill" />
                 <StackLayout>
                     <StackLayout Spacing="0" VerticalOptions="Start" Orientation="Horizontal">
                         <StackLayout.Margin>
@@ -22,8 +22,8 @@
                                     <On Platform="Android" Value="20,0,20,20" />
                                 </OnPlatform>
                             </StackLayout.Margin>
-                            <Label TextColor="#fff" FontFamily="{StaticResource LatoBlack}" FontSize="22" Text="Hi Steven," />
-                            <Label TextColor="#fff" FontFamily="{StaticResource LatoBlack}" FontSize="22" Text="Where do you want to go?" />
+                            <Label TextColor="#fff" FontFamily="{StaticResource LatoBlack}" FontSize="22" Text="Hi," />
+                            <Label TextColor="#fff" FontFamily="{StaticResource LatoBlack}" FontSize="22" Text="多久没有出去旅行了?" />
                         </StackLayout>
                         <Label Text="" FontSize="24" Margin="0,0,20,0" HorizontalOptions="EndAndExpand" VerticalOptions="Center" FontFamily="{StaticResource FontAwesomeRegular}" TextColor="#fff" />
                     </StackLayout>
@@ -41,8 +41,8 @@
                             <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
                         <StackLayout Grid.Column="0" Margin="20,0,0,0" Spacing="0" VerticalOptions="Center">
-                            <Label Text="Seattle, USA" FontSize="24" FontFamily="{StaticResource LatoBold}" />
-                            <Label Text="Recommendation" TextColor="#666" FontSize="16" FontFamily="{StaticResource LatoRegular}" />
+                            <Label Text="中国, 北京" FontSize="24" FontFamily="{StaticResource LatoBold}" />
+                            <Label Text="有朋自远方来不亦乐乎" TextColor="#666" FontSize="16" FontFamily="{StaticResource LatoRegular}" />
                         </StackLayout>
                         <StackLayout Grid.Column="1" Spacing="0" Margin="0,0,20,0" HorizontalOptions="EndAndExpand" VerticalOptions="Center">
                             <Label FontSize="20" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontFamily="{StaticResource FontAwesomeSolid}">
