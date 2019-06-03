@@ -27,12 +27,12 @@
                         </StackLayout>
                         <Label Text="" FontSize="24" Margin="0,0,20,0" HorizontalOptions="EndAndExpand" VerticalOptions="Center" FontFamily="{StaticResource FontAwesomeRegular}" TextColor="#fff" />
                     </StackLayout>
-                    <custom:PancakeView Margin="20,0" HeightRequest="50" BackgroundColor="#44ffffff" CornerRadius="8" VerticalOptions="Start" HorizontalOptions="FillAndExpand">
+                    <!--<custom:PancakeView Margin="20,0" HeightRequest="50" BackgroundColor="#44ffffff" CornerRadius="8" VerticalOptions="Start" HorizontalOptions="FillAndExpand">
                         <StackLayout Orientation="Horizontal" VerticalOptions="Center" Margin="20,0">
                             <Label FontSize="20" VerticalOptions="Center" TextColor="#fff" FontFamily="{StaticResource FontAwesomeSolid}" Text="" Margin="0,0,12,0" />
                             <Entry FontFamily="{StaticResource LatoRegular}" TextColor="#fff" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
                         </StackLayout>
-                    </custom:PancakeView>
+                    </custom:PancakeView>-->
                 </StackLayout>
                 <custom:PancakeView HeightRequest="100" BackgroundColor="#aaeeeeee" CornerRadius="20,0,0,40" HorizontalOptions="FillAndExpand" VerticalOptions="End">
                     <Grid>
@@ -67,8 +67,8 @@
             </Grid>
         </custom:PancakeView>
         <StackLayout Orientation="Horizontal">
-            <Label HorizontalOptions="Start" VerticalOptions="Center" Text="Hot places" FontFamily="{StaticResource LatoBold}" FontSize="20" Margin="20,20,20,0" />
-            <Label HorizontalOptions="EndAndExpand" VerticalOptions="Center" TextColor="#2687ee" Text="SEE ALL" FontSize="12" FontFamily="{StaticResource LatoBold}" Margin="20,20,20,0" />
+            <Label HorizontalOptions="Start" VerticalOptions="Center" Text="热点" FontFamily="{StaticResource LatoBold}" FontSize="20" Margin="20,20,20,0" />
+            <Label HorizontalOptions="EndAndExpand" VerticalOptions="Center" TextColor="#2687ee" Text="更多" FontSize="12" FontFamily="{StaticResource LatoBold}" Margin="20,20,20,0" />
         </StackLayout>
         <CollectionView ItemsLayout="{x:Static ListItemsLayout.HorizontalList}" ItemSizingStrategy="MeasureFirstItem" ItemsSource="{Binding Destinations}" HeightRequest="120">
             <CollectionView.ItemTemplate>
@@ -110,8 +110,8 @@
             </StackLayout>
         </ScrollView>-->
         <StackLayout Orientation="Horizontal">
-            <Label HorizontalOptions="Start" VerticalOptions="Center" Text="Categories" FontFamily="{StaticResource LatoBold}" FontSize="20" Margin="20,20,20,0" />
-            <Label HorizontalOptions="EndAndExpand" VerticalOptions="Center" TextColor="#2687ee" Text="SEE ALL" FontSize="12" FontFamily="{StaticResource LatoBold}" Margin="20,20,20,0" />
+            <Label HorizontalOptions="Start" VerticalOptions="Center" Text="分类" FontFamily="{StaticResource LatoBold}" FontSize="20" Margin="20,20,20,0" />
+            <Label HorizontalOptions="EndAndExpand" VerticalOptions="Center" TextColor="#2687ee" Text="更多" FontSize="12" FontFamily="{StaticResource LatoBold}" Margin="20,20,20,0" />
         </StackLayout>
         <ScrollView Orientation="Horizontal">
             <StackLayout Margin="20,12,20,0" Orientation="Horizontal">
@@ -120,7 +120,7 @@
                         <Label.FormattedText>
                             <FormattedString>
                                 <Span Text=" " FontFamily="{StaticResource FontAwesomeSolid}" />
-                                <Span FontSize="16" Text="Art &amp; Cultures" FontFamily="{StaticResource LatoRegular}" />
+                                <Span FontSize="16" Text="传统文化" FontFamily="{StaticResource LatoRegular}" />
                             </FormattedString>
                         </Label.FormattedText>
                     </Label>
@@ -130,7 +130,7 @@
                         <Label.FormattedText>
                             <FormattedString>
                                 <Span Text=" " FontFamily="{StaticResource FontAwesomeSolid}" />
-                                <Span FontSize="16" Text="Adventure" FontFamily="{StaticResource LatoRegular}" />
+                                <Span FontSize="16" Text="探险" FontFamily="{StaticResource LatoRegular}" />
                             </FormattedString>
                         </Label.FormattedText>
                     </Label>
@@ -140,7 +140,7 @@
                         <Label.FormattedText>
                             <FormattedString>
                                 <Span Text=" " FontFamily="{StaticResource FontAwesomeSolid}" />
-                                <Span FontSize="16" Text="Art &amp; Cultures" FontFamily="{StaticResource LatoRegular}" />
+                                <Span FontSize="16" Text="艺术" FontFamily="{StaticResource LatoRegular}" />
                             </FormattedString>
                         </Label.FormattedText>
                     </Label>

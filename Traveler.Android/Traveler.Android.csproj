@@ -112,6 +112,24 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ForbiddenCity.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\hortiexpo2019.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\Nanluoguxiang.jpg" />
+    <AndroidResource Include="Resources\drawable-ldpi\ForbiddenCity.jpg" />
+    <AndroidResource Include="Resources\drawable-ldpi\hortiexpo2019.jpg" />
+    <AndroidResource Include="Resources\drawable-ldpi\Nanluoguxiang.jpg" />
+    <AndroidResource Include="Resources\drawable-mdpi\ForbiddenCity.jpg" />
+    <AndroidResource Include="Resources\drawable-mdpi\hortiexpo2019.jpg" />
+    <AndroidResource Include="Resources\drawable-mdpi\Nanluoguxiang.jpg" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ForbiddenCity.jpg" />
+    <AndroidResource Include="Resources\drawable-xhdpi\hortiexpo2019.jpg" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Nanluoguxiang.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ForbiddenCity.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\hortiexpo2019.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Nanluoguxiang.jpg" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ForbiddenCity.jpg" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\hortiexpo2019.jpg" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Nanluoguxiang.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

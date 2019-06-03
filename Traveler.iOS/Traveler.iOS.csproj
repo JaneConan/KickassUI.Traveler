@@ -196,6 +196,9 @@
     <BundleResource Include="Resources\elba%403x.jpg" />
     <BundleResource Include="Resources\elba%402x.jpg" />
     <BundleResource Include="Resources\elba.jpg" />
+    <BundleResource Include="Resources\ForbiddenCity.jpg" />
+    <BundleResource Include="Resources\hortiexpo2019.jpg" />
+    <BundleResource Include="Resources\Nanluoguxiang.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\beijing.jpg" />

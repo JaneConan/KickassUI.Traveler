@@ -19,15 +19,15 @@ namespace Traveler
                 Destinations = new List<Destination>() {
                  new Destination
                  {
-                     Title = "Ulun Danu Beratan Temple",
-                     ImageUrl = "bali.jpg",
+                     Title = "故宫",
+                     ImageUrl = "ForbiddenCity.jpg",
                      Rating = 4.4f,
                      Votes = 3829
                  },
                  new Destination
                  {
-                     Title = "Isola d'Elba",
-                     ImageUrl = "elba.jpg",
+                     Title = "世界园艺博览会",
+                     ImageUrl = "hortiexpo2019.jpg",
                      Rating = 4.9f,
                      Votes = 9783
                  }
